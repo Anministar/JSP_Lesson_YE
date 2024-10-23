@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+	border : 1px solid;
+	margin : 2px;
+}
+
+.container {
+	width : 95%;
+	margin : 0 auto;
+}
+
+
+header {
+	height : 50px;
+}
+
+
+nav {
+	height : 80px;
+}
+
+section {
+	height : 400px;
+}
+
+footer {
+	height : 100px;
+}
