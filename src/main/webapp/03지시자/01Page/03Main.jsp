@@ -19,6 +19,7 @@
 	String addr = request.getParameter("addr");
 	
 	
+
 	// 2. Validation Check(유효성 검사)
 	if(name.isEmpty()) {
 		throw new Exception("이름이 공백입니다.");
