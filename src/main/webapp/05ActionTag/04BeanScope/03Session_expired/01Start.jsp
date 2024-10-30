@@ -93,12 +93,9 @@
 
 <%
 	System.out.println("01Start : " + bean);
+	response.sendRedirect("02Page.jsp");
 
 %>
-
-
-<!-- forwarding(request는 유지된다) -->
-<jsp:forward page="02Page.jsp" />
 
 
 
