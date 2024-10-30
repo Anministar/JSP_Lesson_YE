@@ -33,7 +33,7 @@
 
 	<!-- nav-->
 	<%@include file="resources/module/nav.jsp" %>
-	<section>섹션입니다.</section
+	<section>섹션입니다.</section>
 	
 	<!-- footer -->
 	<%@include file="resources/module/footer.jsp" %>

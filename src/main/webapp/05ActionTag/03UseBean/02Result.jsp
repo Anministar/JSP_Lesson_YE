@@ -33,9 +33,9 @@
 	bookdto.price = 35000; */
 %>
 
-도서번호 : <jsp:getProperty name="bookdto" property="bookcode" />
-도서이름 : <jsp:getProperty name="bookdto" property="bookname" />
-도서가격 : <jsp:getProperty name="bookdto" property="price" />
+도서번호 : <jsp:getProperty name="bookdto" property="bookcode" /> <br>
+도서이름 : <jsp:getProperty name="bookdto" property="bookname" /> <br>
+도서가격 : <jsp:getProperty name="bookdto" property="price" /> <br>
 
 </body>
 </html>
