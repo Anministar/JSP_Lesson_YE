@@ -18,7 +18,6 @@
 	String realPath = pageContext.getServletContext().getRealPath("/") + "07Built_in_Object/03Response/download";
 	System.out.println("RealPath : " + realPath);
 	
-
 	try {
 		// InputStream ( 파일 경로로부터 프로그램 방향으로 스트림 생성 )
 		FileInputStream fin = new FileInputStream(realPath + "/TEST.txt");
