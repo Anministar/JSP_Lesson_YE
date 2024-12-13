@@ -11,10 +11,18 @@
 <%@page import="java.io.*" %>
 <%
 	out.clear();
+
+	// out == (JSP의 출력 스트림이 참조하는 출력 스트림 , JSP의 기본 스트림)
+
+	// JSP에서 사용하던 out이 새로운 출력버퍼로 대체
+	// 따라서 이후의 출력은 브라우저가 아니라 새로 생성된 스트림(출력버퍼 = out)으로 들어가게 됨.
 	out = pageContext.pushBody();
-	
+
+
 	// download Path 확인
-	// 서블릿 파일의 위치
+	// 서블릿 파일의 위치 
+	// JSP_STUDYING 프로젝트까지의 절대경로 == 어플리케이션 내 특정 경로의 서버 파일의 절대 경로를 반환
+	
 	String realPath = pageContext.getServletContext().getRealPath("/") + "07Built_in_Object/03Response/download";
 	System.out.println("RealPath : " + realPath);
 	
